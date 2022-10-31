@@ -1,0 +1,42 @@
+@import "../base/variables";
+
+/*------------------------------nav-bar-------------------------------*/
+
+    .navMenu {
+        grid-area: header;
+        background-color: transparent;
+
+        .navbar {
+            background-color: transparent;
+
+            .container-fluid {
+
+                .navbar-brand {
+                    color: $text-primary;
+                    font-weight: nth($font-weight , 4 );
+                    font-family: $font-primary;
+                    transition: opacity 0.25s;
+                    &:hover {
+                        opacity: 0.7;
+                        border-bottom: 0.5px solid rgba(0, 0, 0, 0.404);
+                    }
+                }
+
+                .nav-item {
+                    color: $text-primary;
+                    font-weight: nth($font-weight , 3 );
+                    font-family: $font-primary;
+                    text-align: $text-center;
+                    transition: opacity 0.25s;
+
+                    &:hover {
+                        border-bottom: 0.5px solid rgba(0, 0, 0, 0.404);
+                        opacity: 0.7;
+                    }
+                }
+
+
+            }
+        }
+
+    }

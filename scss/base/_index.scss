@@ -1,0 +1,300 @@
+@import "./variables";
+
+
+/*------------------------------index-------------------------------*/
+
+
+.grid-contenedor {
+
+    background-image: linear-gradient(180deg, #e2e4f5, #B4B8D9, #3477ceb4, #055BCF);
+    margin: 0 0;
+    color: $text-primary;
+    font-family: $font-primary;
+
+    @include grid (grid, 100px 1fr 1fr 100px, auto 900px 1160px 1000px 700px auto);
+
+    grid-template-areas:
+        ". header header ."
+        "main main main main"
+        ". info info ."
+        "info2 info2 info2 info2"
+        "testimonies testimonies testimonies testimonies"
+        "gallery gallery gallery gallery"
+    ;
+
+
+    .menu {
+        grid-area: main;
+        background-image: url("../img/index/background\ hero\ image2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-size: 100% 100%;
+
+        @include grid (grid, 0.2fr 1fr 0.2fr, 1fr);
+
+        grid-template-areas:
+            ". hero ."
+        ;
+
+        .Hero {
+            @extend %flex-center;
+            flex-direction: column;
+            grid-area: hero;
+
+            .heroText {
+
+                .textHero {
+                    color: #FFFF;
+                    font-size: nth($font-size, 1);
+                    font-weight: nth($font-weight , 3);
+                    font-family: $font-primary;
+                }
+
+                .textSec {
+                    margin-top: 17px;
+                    color: #FFFF;
+                    font-size: nth($font-size, 2);
+                    font-weight: nth($font-weight , 2);
+                    font-family: $font-primary;
+                }
+
+                .button1 {
+                    margin-top: 30px;
+                    border: map-get($button , border-button);
+                    background-color: map-get($button , bg-button);
+                    padding: map-get($button , padding-button);
+                    display: map-get($button , display-button);
+
+                    &:hover {
+                        background-color: $bg-button-hover;
+                        text-shadow: none;
+                    }
+                }
+
+                .button1Text {
+                    color: #FFFF;
+                    @extend %button-text;
+                    font-size: nth($font-size, 3);
+                    font-weight: nth($font-weight , 3);
+                    font-family: $font-primary;
+
+                    &:hover {
+                        color: $text-white;
+                        text-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .secInfo {
+        grid-area: info;
+        @include grid(grid, 50px 1fr 50px, 0.3fr 1fr 0.3fr 1fr 0.3fr);
+
+        grid-template-areas:
+            ". . ."
+            ". info1 ."
+            ". . ."
+            ". info2 ."
+            ". . ."
+        ;
+
+        .info1 {
+            width: 100%;
+            height: 350px;
+            @extend %flex-between;
+            flex-direction: row;
+            grid-area: info1;
+
+            .info11 {
+                .infoPriText {
+                    color: $text-primary;
+                    margin-bottom: 40px;
+                    font-size: nth($font-size, 1);
+                    font-weight: nth($font-weight , 4);
+                    font-family: $font-primary;
+                }
+
+                .infoSecText {
+                    color: text-primary;
+                    font-size: nth($font-size, 2);
+                    font-weight: nth($font-weight , 2);
+                    font-family: $font-primary;
+                }
+            }
+
+            .infoImg {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .info2 {
+            width: 100%;
+            height: 350px;
+            @extend %flex-between;
+            flex-direction: row-reverse;
+            grid-area: info2;
+
+            .info22 {
+                .infoPriText {
+                    color: $text-primary;
+                    margin-bottom: 40px;
+                    font-size: nth($font-size, 1);
+                    font-weight: nth($font-weight , 4);
+                    font-family: $font-primary;
+
+                    &.info2R {
+                        text-align: right;
+                    }
+                }
+
+                .infoSecText {
+                    color: text-primary;
+                    font-size: nth($font-size, 2);
+                    font-weight: nth($font-weight , 2);
+                    font-family: $font-primary;
+                    &.info2SecR {
+                        text-align: right;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .info3 {
+        grid-area: info2;
+        width: 100%;
+        @extend %flex-center;
+        flex-direction: column;
+
+        .info33 {
+            .info3PriText {
+                color: $text-primary;
+                text-align: $text-center;
+                margin-bottom: 40px;
+                font-size: nth($font-size, 1);
+                font-weight: nth($font-weight , 4);
+                font-family: $font-primary;
+            }
+
+            .info3SecText {
+                margin-bottom: 20px;
+                text-align: $text-center;
+                color: text-primary;
+                font-size: nth($font-size, 2);
+                font-weight: nth($font-weight , 2);
+                font-family: $font-primary;
+            }
+        }
+
+        .info3Img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .testimonies {
+        grid-area: testimonies;
+
+        .testText {
+            color: $text-primary;
+            font-size: nth($font-size, 1);
+            text-align: $text-center;
+            font-family: $font-primary;
+            font-weight: nth($font-weight , 4);
+            margin-top: 100px;
+            margin-bottom: 80px;
+        }
+
+        .testimoniesDiv {
+            margin: 0 auto;
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+            .testimony {
+                width: 25%;
+                flex-direction: column;
+                @extend %flex-evenly;
+
+                .testimonyText {
+                    color: $text-primary;
+                    text-align: $text-center;
+                    font-size: nth($font-size, 4);
+                    font-family: $font-primary;
+                    margin: 10px 0px 10px 0px;
+                }
+
+                .testimonyUser {
+                    @extend %flex-center;
+                    flex-direction: column;
+                    margin: 10px 0px 10px 0px;
+
+                    .imgUser {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    .testimonyName {
+                        color: $text-primary;
+                        font-size: nth($font-size, 4);
+                        text-align: $text-center;
+                        font-weight: nth($font-weight , 4);
+                        font-family: $font-primary;
+                    }
+
+                    .testimonyC {
+                        color: $text-primary;
+                        font-size: nth($font-size, 5);
+                        text-align: $text-center;
+                        font-weight: nth($font-weight , 2);
+                        font-family: $font-primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .imageGallery {
+        grid-area: gallery;
+        @include grid(grid, 1fr 1fr 1fr 1fr 1fr, 1fr 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 50px;
+
+        .galItem {
+            position: relative;
+
+            .itemImg {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .imgTextHover {
+                position: absolute;
+                bottom: 0;
+                color: $text-white;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                font-size: nth($font-size, 3);
+                font-weight: nth($font-weight , 2);
+                font-family: $font-primary;
+                @extend %flex-center;
+                flex-direction: column;
+                opacity: 0;
+                transition: opacity 0.25s;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

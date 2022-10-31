@@ -125,7 +125,7 @@
 .textSec {
     margin-top: 17px;
     color: #FFFF;
-    font-size: 28;
+    font-size: 28px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
@@ -255,6 +255,7 @@
 
 
 .footer1{
+    grid-area: footer;
     height: 200px;
     background-color: black;
 }
@@ -391,7 +392,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
 }
 
 .testimonyText{
@@ -685,6 +685,7 @@
     width: 100vw;
     height: 500px;
     margin-top: 60px;
+    object-fit: cover;
 }
 
 .aboutUs{

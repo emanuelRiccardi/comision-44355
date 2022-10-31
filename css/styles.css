@@ -1,0 +1,1468 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap");
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------nav-bar-------------------------------*/
+.navMenu {
+  grid-area: header;
+  background-color: transparent; }
+  .navMenu .navbar {
+    background-color: transparent; }
+    .navMenu .navbar .container-fluid .navbar-brand {
+      color: black;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      transition: opacity 0.25s; }
+      .navMenu .navbar .container-fluid .navbar-brand:hover {
+        opacity: 0.7;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.404); }
+    .navMenu .navbar .container-fluid .nav-item {
+      color: black;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      transition: opacity 0.25s; }
+      .navMenu .navbar .container-fluid .nav-item:hover {
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.404);
+        opacity: 0.7; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------footer-------------------------------*/
+.footer1 {
+  grid-area: footer;
+  height: 200px;
+  background-color: black; }
+  .footer1 .footerBar {
+    margin: 0;
+    padding: 25px; }
+    .footer1 .footerBar .ftBarItem {
+      float: left; }
+      .footer1 .footerBar .ftBarItem:hover {
+        background-color: white; }
+      .footer1 .footerBar .ftBarItem .ftItem1 {
+        display: block;
+        color: white;
+        font-size: larger;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        padding: 14px 16px;
+        text-decoration: none; }
+        .footer1 .footerBar .ftBarItem .ftItem1:hover {
+          color: black;
+          font-weight: 700; }
+    .footer1 .footerBar .ftNavBar2 {
+      list-style-type: none;
+      background-color: transparent; }
+      .footer1 .footerBar .ftNavBar2 .fNavItem {
+        font-family: "Poppins", sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+        .footer1 .footerBar .ftNavBar2 .fNavItem:hover {
+          color: black;
+          font-weight: 700; }
+  .footer1 .ftExtra {
+    flex-direction: row;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin: 0px; }
+    .footer1 .ftExtra .copy2 {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 8px; }
+      .footer1 .ftExtra .copy2 h4 {
+        font-size: 16px; }
+      .footer1 .ftExtra .copy2 b {
+        font-size: 16px; }
+    .footer1 .ftExtra .ftIcons .fa {
+      padding: 20px;
+      width: 30px;
+      height: auto;
+      margin: 5px 2px;
+      border-radius: 50%; }
+      .footer1 .ftExtra .ftIcons .fa:hover {
+        opacity: 0.7; }
+      .footer1 .ftExtra .ftIcons .fa.fa-facebook {
+        background: #3B5998; }
+        .footer1 .ftExtra .ftIcons .fa.fa-facebook .ftIcon {
+          width: 30px;
+          height: auto; }
+      .footer1 .ftExtra .ftIcons .fa.fa-twitter {
+        background: #55ACEE; }
+        .footer1 .ftExtra .ftIcons .fa.fa-twitter .ftIcon {
+          width: 30px;
+          height: auto; }
+      .footer1 .ftExtra .ftIcons .fa.fa-instagram {
+        background: #125688; }
+        .footer1 .ftExtra .ftIcons .fa.fa-instagram .ftIcon {
+          width: 30px;
+          height: auto; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------index-------------------------------*/
+.grid-contenedor {
+  background-image: linear-gradient(180deg, #e2e4f5, #B4B8D9, #3477ceb4, #055BCF);
+  margin: 0 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 100px;
+  grid-template-rows: auto 900px 1160px 1000px 700px auto;
+  grid-template-areas: ". header header ." "main main main main" ". info info ." "info2 info2 info2 info2" "testimonies testimonies testimonies testimonies" "gallery gallery gallery gallery"; }
+  .grid-contenedor .menu {
+    grid-area: main;
+    background-image: url("../img/index/background hero image2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". hero ."; }
+    .grid-contenedor .menu .Hero {
+      flex-direction: column;
+      grid-area: hero; }
+      .grid-contenedor .menu .Hero .heroText .textHero {
+        color: #FFFF;
+        font-size: 64px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif; }
+      .grid-contenedor .menu .Hero .heroText .textSec {
+        margin-top: 17px;
+        color: #FFFF;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif; }
+      .grid-contenedor .menu .Hero .heroText .button1 {
+        margin-top: 30px;
+        border: none;
+        background-color: #79aaff;
+        padding: 20px;
+        display: inline-block; }
+        .grid-contenedor .menu .Hero .heroText .button1:hover {
+          background-color: #1e4281;
+          text-shadow: none; }
+      .grid-contenedor .menu .Hero .heroText .button1Text {
+        color: #FFFF;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif; }
+        .grid-contenedor .menu .Hero .heroText .button1Text:hover {
+          color: white;
+          text-shadow: none; }
+  .grid-contenedor .secInfo {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr;
+    grid-template-areas: ". . ." ". info1 ." ". . ." ". info2 ." ". . ."; }
+    .grid-contenedor .secInfo .info1 {
+      width: 100%;
+      height: 350px;
+      flex-direction: row;
+      grid-area: info1; }
+      .grid-contenedor .secInfo .info1 .info11 .infoPriText {
+        color: black;
+        margin-bottom: 40px;
+        font-size: 64px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif; }
+      .grid-contenedor .secInfo .info1 .info11 .infoSecText {
+        color: text-primary;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif; }
+      .grid-contenedor .secInfo .info1 .infoImg {
+        max-width: 100%;
+        height: auto; }
+    .grid-contenedor .secInfo .info2 {
+      width: 100%;
+      height: 350px;
+      flex-direction: row-reverse;
+      grid-area: info2; }
+      .grid-contenedor .secInfo .info2 .info22 .infoPriText {
+        color: black;
+        margin-bottom: 40px;
+        font-size: 64px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif; }
+        .grid-contenedor .secInfo .info2 .info22 .infoPriText.info2R {
+          text-align: right; }
+      .grid-contenedor .secInfo .info2 .info22 .infoSecText {
+        color: text-primary;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif; }
+        .grid-contenedor .secInfo .info2 .info22 .infoSecText.info2SecR {
+          text-align: right; }
+  .grid-contenedor .info3 {
+    grid-area: info2;
+    width: 100%;
+    flex-direction: column; }
+    .grid-contenedor .info3 .info33 .info3PriText {
+      color: black;
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 64px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif; }
+    .grid-contenedor .info3 .info33 .info3SecText {
+      margin-bottom: 20px;
+      text-align: center;
+      color: text-primary;
+      font-size: 28px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif; }
+    .grid-contenedor .info3 .info3Img {
+      width: 100%;
+      height: auto; }
+  .grid-contenedor .testimonies {
+    grid-area: testimonies; }
+    .grid-contenedor .testimonies .testText {
+      color: black;
+      font-size: 64px;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      margin-top: 100px;
+      margin-bottom: 80px; }
+    .grid-contenedor .testimonies .testimoniesDiv {
+      margin: 0 auto;
+      width: 90%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row; }
+      .grid-contenedor .testimonies .testimoniesDiv .testimony {
+        width: 25%;
+        flex-direction: column; }
+        .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyText {
+          color: black;
+          text-align: center;
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          margin: 10px 0px 10px 0px; }
+        .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser {
+          flex-direction: column;
+          margin: 10px 0px 10px 0px; }
+          .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser .imgUser {
+            width: 50px;
+            height: 50px; }
+          .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser .testimonyName {
+            color: black;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif; }
+          .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser .testimonyC {
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif; }
+  .grid-contenedor .imageGallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 50px; }
+    .grid-contenedor .imageGallery .galItem {
+      position: relative; }
+      .grid-contenedor .imageGallery .galItem .itemImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .grid-contenedor .imageGallery .galItem .imgTextHover {
+        position: absolute;
+        bottom: 0;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 0.25s; }
+        .grid-contenedor .imageGallery .galItem .imgTextHover:hover {
+          opacity: 1; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------contact-us-------------------------------*/
+.grid-contenedor2 {
+  margin: 0;
+  background-color: #FFFEF8;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 100px 1fr 0.2fr 1fr 100px;
+  grid-template-rows: auto auto;
+  grid-template-areas: ". header header header ." ". form . img img"; }
+  .grid-contenedor2 .forms {
+    margin: 100px 0 100px 0;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .grid-contenedor2 .forms .formText {
+      margin-bottom: 50px; }
+      .grid-contenedor2 .forms .formText .mainText4 {
+        color: black;
+        font-size: 64px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif; }
+      .grid-contenedor2 .forms .formText .parText4 {
+        height: auto;
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif; }
+    .grid-contenedor2 .forms .normal {
+      display: block; }
+      .grid-contenedor2 .forms .normal .submitButton {
+        padding: 0;
+        border: none;
+        border: none;
+        background-color: #79aaff;
+        width: 100%;
+        height: 62px;
+        margin-top: 40px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: white; }
+        .grid-contenedor2 .forms .normal .submitButton:hover {
+          background-color: #1e4281;
+          text-shadow: none;
+          color: white; }
+    .grid-contenedor2 .forms .small {
+      display: none; }
+      .grid-contenedor2 .forms .small .submitButton {
+        padding: 0;
+        border: none;
+        border: none;
+        background-color: #79aaff;
+        width: 100%;
+        height: 62px;
+        margin-top: 40px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: white; }
+        .grid-contenedor2 .forms .small .submitButton:hover {
+          background-color: #1e4281;
+          text-shadow: none;
+          color: white; }
+  .grid-contenedor2 .formImg {
+    grid-area: img;
+    margin: 100px 0 100px 0;
+    background-image: url("../img/sam.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------destinations-------------------------------*/
+.grid-contenedor3 {
+  background-color: #FFFEF8;
+  margin: 0 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: auto auto;
+  grid-template-areas: ". header ." "content content content"; }
+  .grid-contenedor3 .content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 200px auto;
+    grid-template-areas: ". maintext ." "cards cards cards"; }
+    .grid-contenedor3 .content .mainT2 {
+      grid-area: maintext;
+      width: 100%; }
+      .grid-contenedor3 .content .mainT2 .mainText2 {
+        height: auto;
+        color: black;
+        font-size: 64px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        text-align: center; }
+    .grid-contenedor3 .content .destinations {
+      grid-area: cards; }
+      .grid-contenedor3 .content .destinations .destination {
+        display: grid;
+        grid-template-columns: 100px 0.7fr 100px 1.2fr 100px;
+        grid-template-rows: auto;
+        grid-template-areas: "img2 img2 . dinfo ."; }
+        .grid-contenedor3 .content .destinations .destination .dImg {
+          height: auto;
+          max-width: 100%;
+          grid-area: img2; }
+        .grid-contenedor3 .content .destinations .destination .dInfo {
+          grid-area: dinfo;
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          flex-direction: column;
+          transition: all .2s ease-in-out; }
+          .grid-contenedor3 .content .destinations .destination .dInfo:hover {
+            transform: scale(1.1); }
+          .grid-contenedor3 .content .destinations .destination .dInfo .dTitle {
+            color: black;
+            font-size: 32px;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif; }
+          .grid-contenedor3 .content .destinations .destination .dInfo .dParagraph {
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif; }
+          .grid-contenedor3 .content .destinations .destination .dInfo .button2 .button5 {
+            display: inline-block;
+            padding: 0.46em 1.6em;
+            margin: 0 0.2em 0.2em 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            color: white;
+            background-color: #79aaff;
+            text-align: center;
+            transition: all 0.15s; }
+            .grid-contenedor3 .content .destinations .destination .dInfo .button2 .button5:hover {
+              background-color: #1e4281; }
+      .grid-contenedor3 .content .destinations .dLeft {
+        display: grid;
+        grid-template-columns: 100px 1.2fr 100px 0.7fr 100px;
+        grid-template-rows: auto;
+        grid-template-areas: ". dinfo . img2 img2"; }
+        .grid-contenedor3 .content .destinations .dLeft .dImg {
+          height: auto;
+          max-width: 100%;
+          grid-area: img2; }
+        .grid-contenedor3 .content .destinations .dLeft .dInfo {
+          grid-area: dinfo;
+          border-top: black solid 2px;
+          border-bottom: black solid 2px;
+          flex-direction: column;
+          align-items: flex-end;
+          transition: all .2s ease-in-out; }
+          .grid-contenedor3 .content .destinations .dLeft .dInfo:hover {
+            transform: scale(1.1); }
+          .grid-contenedor3 .content .destinations .dLeft .dInfo .dTitle {
+            color: black;
+            font-size: 32px;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif; }
+          .grid-contenedor3 .content .destinations .dLeft .dInfo .dParagraph {
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif; }
+          .grid-contenedor3 .content .destinations .dLeft .dInfo .button2 .button5 {
+            display: inline-block;
+            padding: 0.46em 1.6em;
+            margin: 0 0.2em 0.2em 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            color: white;
+            background-color: #79aaff;
+            text-align: center;
+            transition: all 0.15s; }
+            .grid-contenedor3 .content .destinations .dLeft .dInfo .button2 .button5:hover {
+              background-color: #1e4281; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------services-------------------------------*/
+.grid-contenedor4 {
+  background-color: #FFFEF8;
+  margin: 0 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: auto auto;
+  grid-template-areas: ". header ." ". services ."; }
+  .grid-contenedor4 main {
+    grid-area: services;
+    margin-bottom: 100px; }
+    .grid-contenedor4 main .mainT4 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      width: 100%; }
+      .grid-contenedor4 main .mainT4 .mainText4 {
+        color: black;
+        font-size: 64px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif; }
+    .grid-contenedor4 main .services .serviceItem {
+      display: grid;
+      grid-template-columns: 0.5fr 0.5fr 2fr 0.1fr 0.5fr;
+      grid-template-rows: 150px;
+      grid-template-areas: "number icon text . button";
+      align-items: center;
+      margin-bottom: 40px;
+      border-bottom: 2px black solid; }
+      .grid-contenedor4 main .services .serviceItem .sNumber {
+        grid-area: number;
+        color: black;
+        font-size: 96px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        border-right: 2px black solid; }
+      .grid-contenedor4 main .services .serviceItem .sIcon {
+        grid-area: icon;
+        justify-self: center; }
+      .grid-contenedor4 main .services .serviceItem .sText {
+        grid-area: text; }
+        .grid-contenedor4 main .services .serviceItem .sText .sPrimaryText {
+          color: black;
+          font-size: 28px;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif; }
+        .grid-contenedor4 main .services .serviceItem .sText .sParagraphText {
+          color: black;
+          font-size: 20px;
+          font-weight: 400;
+          font-family: "Poppins", sans-serif; }
+      .grid-contenedor4 main .services .serviceItem .button2 {
+        grid-area: button;
+        justify-self: end; }
+        .grid-contenedor4 main .services .serviceItem .button2 .button5 {
+          display: inline-block;
+          padding: 0.46em 1.6em;
+          margin: 0 0.2em 0.2em 0;
+          box-sizing: border-box;
+          text-decoration: none;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          color: white;
+          background-color: #79aaff;
+          text-align: center;
+          transition: all 0.15s; }
+          .grid-contenedor4 main .services .serviceItem .button2 .button5:hover {
+            background-color: #1e4281; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------------about-uss-------------------------------*/
+.grid-contenedor5 {
+  background-color: #FFFEF8;
+  margin: 0 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: ". header ." "hero hero hero" ". content ." "ceo ceo ceo"; }
+  .grid-contenedor5 .hero2 {
+    grid-area: hero;
+    position: relative;
+    text-align: center; }
+    .grid-contenedor5 .hero2 .hero2Img {
+      width: 100%;
+      height: 560px;
+      object-fit: cover;
+      opacity: 0.8; }
+    .grid-contenedor5 .hero2 .hero2Text {
+      bottom: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      text-align: center;
+      font-size: 64px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif; }
+  .grid-contenedor5 .aboutUs {
+    margin-top: 100px;
+    border-top: 2px solid black;
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "about . diff"; }
+    .grid-contenedor5 .aboutUs .textAbout {
+      grid-area: about;
+      margin-top: 60px;
+      margin-bottom: 100px;
+      height: 360px;
+      flex-direction: column; }
+      .grid-contenedor5 .aboutUs .textAbout .aboutTitle {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        text-align: center; }
+      .grid-contenedor5 .aboutUs .textAbout .aboutPar {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        text-align: center; }
+    .grid-contenedor5 .aboutUs .textAbout2 {
+      grid-area: diff;
+      margin-top: 60px;
+      margin-bottom: 100px;
+      height: 360px;
+      flex-direction: column; }
+      .grid-contenedor5 .aboutUs .textAbout2 .aboutTitle {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        text-align: center; }
+      .grid-contenedor5 .aboutUs .textAbout2 .aboutPar {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        text-align: center; }
+  .grid-contenedor5 .ceoComment {
+    grid-area: ceo;
+    background-image: url("../img/about-us/2l.png");
+    height: 430px;
+    width: 100%; }
+    .grid-contenedor5 .ceoComment .ceo .imgCeo {
+      width: 50px;
+      height: 50px; }
+    .grid-contenedor5 .ceoComment .ceo .ceoName {
+      font-size: 20px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: white; }
+    .grid-contenedor5 .ceoComment .ceo .role {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      color: white; }
+    .grid-contenedor5 .ceoComment .ceoComment1 {
+      width: 40%;
+      font-size: 32px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: white; }
+
+.grid-contenedor .menu .Hero, .grid-contenedor .info3, .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyUser, .grid-contenedor .imageGallery .galItem .imgTextHover, .grid-contenedor3 .content .mainT2, .grid-contenedor5 .hero2 .hero2Text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .footerBar, .footer1 .ftExtra, .grid-contenedor .secInfo .info1, .grid-contenedor .secInfo .info2, .grid-contenedor5 .aboutUs .textAbout, .grid-contenedor5 .aboutUs .textAbout2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.grid-contenedor .testimonies .testimoniesDiv .testimony, .grid-contenedor5 .ceoComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.grid-contenedor3 .content .destinations .destination .dInfo, .grid-contenedor3 .content .destinations .dLeft .dInfo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.grid-contenedor .menu .Hero .heroText .button1Text {
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  text-decoration: none; }
+
+.footer1 .footerBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent; }
+
+.grid-contenedor3 .content .destinations .destination, .grid-contenedor3 .content .destinations .dLeft {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*------------------------media-query-index--------------------------*/
+@media screen and (max-width: 1500px) {
+  .grid-contenedor {
+    grid-template-rows: auto 900px 1160px 900px 700px 750px; } }
+
+@media screen and (max-width: 1200px) {
+  .grid-contenedor {
+    grid-template-columns: 75px 1fr 1fr 75px;
+    grid-template-rows: auto 900px 750px 600px 600px 500px; }
+    .grid-contenedor .menu .Hero .heroText .textHero {
+      font-size: 48px; }
+    .grid-contenedor .menu .Hero .heroText .textSec {
+      font-size: 20px; }
+    .grid-contenedor .menu .Hero .heroText .button1 {
+      margin-top: 25px;
+      padding: 15px; }
+    .grid-contenedor .menu .Hero .heroText .button1Text {
+      padding: 15px 35px 15px 35px;
+      font-size: 18px; }
+    .grid-contenedor .secInfo {
+      display: grid;
+      grid-template-columns: 0, 5fr 1fr 0, 5fr;
+      grid-template-rows: 0, 2fr 7fr 0, 2fr 7fr 0, 2fr;
+      grid-template-areas: ". . ." ". info1 ." ". . ." ". info2 ." ". . ."; }
+      .grid-contenedor .secInfo .info1 .info11 .infoPriText {
+        font-size: 38px;
+        margin-bottom: 40px;
+        font-weight: bold; }
+      .grid-contenedor .secInfo .info1 .info11 .infoSecText {
+        font-size: 16px;
+        font-weight: 400; }
+      .grid-contenedor .secInfo .info1 .infoImg {
+        max-width: 50%;
+        height: auto; }
+      .grid-contenedor .secInfo .info2 .info22 .infoPriText {
+        font-size: 38px;
+        margin-bottom: 40px;
+        font-weight: bold; }
+      .grid-contenedor .secInfo .info2 .info22 .infoSecText {
+        font-size: 16px;
+        font-weight: 400; }
+      .grid-contenedor .secInfo .info2 .infoImg {
+        max-width: 50%;
+        height: auto; }
+    .grid-contenedor .info3 .info33 .info3PriText {
+      font-size: 48px; }
+    .grid-contenedor .info3 .info33 .info3SecText {
+      font-size: 20px; }
+    .grid-contenedor .testimonies .testText {
+      font-size: 42px; }
+    .grid-contenedor .testimonies .testimoniesDiv .testimony .testimonyText {
+      font-size: 14px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 945px) {
+  .grid-contenedor {
+    grid-template-columns: 75px 1fr 1fr 75px;
+    grid-template-rows: auto 600px 750px auto 550px 500px; }
+    .grid-contenedor .menu .Hero .heroText .textHero {
+      font-size: 42px; }
+    .grid-contenedor .menu .Hero .heroText .textSec {
+      font-size: 18px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 830px) {
+  .grid-contenedor {
+    grid-template-rows: auto 600px 750px auto 550px 500px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 750px) {
+  .grid-contenedor {
+    grid-template-columns: 50px 1fr 1fr 50px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 700px) {
+  .grid-contenedor {
+    grid-template-rows: auto 600px 750px auto 600px 500px; }
+    .grid-contenedor .secInfo {
+      grid-template-columns: 0px 1fr 0px;
+      grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr;
+      grid-template-areas: ". . ." ". info1 ." ". . ." ". info2 ." ". . ."; }
+    .grid-contenedor .info3 .info33 .info3PriText {
+      font-size: 42px; }
+    .grid-contenedor .info3 .info33 .info3SecText {
+      font-size: 18px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 595px) {
+  .grid-contenedor {
+    grid-template-rows: auto 600px auto auto 600px auto; }
+    .grid-contenedor .secInfo .info1 {
+      flex-direction: column; }
+      .grid-contenedor .secInfo .info1 .info11 .infoPriText {
+        text-align: center;
+        font-size: 32px; }
+      .grid-contenedor .secInfo .info1 .info11 .infoSecText {
+        text-align: center;
+        font-size: 14px; }
+      .grid-contenedor .secInfo .info1 .infoImg {
+        max-width: 100%;
+        height: auto; }
+    .grid-contenedor .secInfo .info2 {
+      flex-direction: column; }
+      .grid-contenedor .secInfo .info2 .info22 .infoPriText {
+        font-size: 32px; }
+        .grid-contenedor .secInfo .info2 .info22 .infoPriText.info2R {
+          text-align: center; }
+      .grid-contenedor .secInfo .info2 .info22 .infoSecText {
+        font-size: 14px; }
+        .grid-contenedor .secInfo .info2 .info22 .infoSecText.info2SecR {
+          text-align: center; }
+      .grid-contenedor .secInfo .info2 .infoImg {
+        max-width: 100%;
+        height: auto; }
+    .grid-contenedor .info3 .info33 .info3PriText {
+      margin-bottom: 20px; }
+    .grid-contenedor .info3 .info33 .info3SecText {
+      margin-bottom: 10px; }
+    .grid-contenedor .imageGallery {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      column-gap: 10px;
+      row-gap: 10px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 565px) {
+  .grid-contenedor {
+    grid-template-rows: auto 600px auto auto 600px auto; }
+    .grid-contenedor .testimonies .testText {
+      font-size: 38px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 554px) {
+  .grid-contenedor {
+    grid-template-rows: auto 400px auto auto auto auto; }
+    .grid-contenedor .menu {
+      grid-template-columns: 30px 1fr 30px; }
+      .grid-contenedor .menu .Hero .heroText .textHero {
+        font-size: 34px;
+        font-weight: 700; }
+      .grid-contenedor .menu .Hero .heroText .button1 {
+        margin-top: 20px;
+        padding: 10px; }
+        .grid-contenedor .menu .Hero .heroText .button1 .button1Text {
+          padding: 9px 25px 9px 25px;
+          font-size: 16px; }
+    .grid-contenedor .secInfo .info1 {
+      width: 100%;
+      height: 390px; }
+    .grid-contenedor .secInfo .info2 {
+      width: 100%;
+      height: 390px; }
+    .grid-contenedor .testimonies .testimoniesDiv {
+      flex-direction: column;
+      align-items: center; }
+      .grid-contenedor .testimonies .testimoniesDiv .testimony {
+        width: 60%;
+        margin-bottom: 20px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 530px) {
+  .grid-contenedor {
+    grid-template-columns: 20px 1fr 1fr 20px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 495px) {
+  .grid-contenedor {
+    grid-template-rows: auto 400px auto auto auto auto; }
+    .grid-contenedor .menu .Hero .heroText {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .grid-contenedor .menu .Hero .heroText .textHero {
+        font-size: 30px;
+        font-size: 700;
+        text-align: center; }
+      .grid-contenedor .menu .Hero .heroText .textSec {
+        display: none; }
+    .grid-contenedor .secInfo .info1 {
+      width: 100%;
+      height: 320px; }
+      .grid-contenedor .secInfo .info1 .infoImg {
+        max-width: 80%;
+        height: auto; }
+    .grid-contenedor .secInfo .info2 {
+      width: 100%;
+      height: 320px; }
+      .grid-contenedor .secInfo .info2 .infoImg {
+        max-width: 80%;
+        height: auto; }
+    .grid-contenedor .info3 .info33 .info3PriText {
+      font-size: 34px; }
+    .grid-contenedor .info3 .info33 .info3SecText {
+      font-size: 16px; }
+    .grid-contenedor .testimonies .testText {
+      font-size: 34px; }
+    .grid-contenedor .testimonies .testimoniesDiv .testimony {
+      border-bottom: 1px solid black; } }
+
+@media screen and (max-width: 1200px) and (max-width: 435px) {
+  .grid-contenedor {
+    grid-template-rows: auto 400px 700px auto auto auto; }
+    .grid-contenedor .secInfo .info1 {
+      height: auto; }
+    .grid-contenedor .secInfo .info2 {
+      height: auto; } }
+
+/*----------------------------media-query-contact-us---------------------------*/
+@media screen and (max-width: 1200px) {
+  .grid-contenedor2 {
+    grid-template-columns: 100px 3fr 0.2fr 0.9fr 100px;
+    grid-template-areas: ". header header header ." ". form . img img"; }
+    .grid-contenedor2 .formImg {
+      background-repeat: no-repeat;
+      background-size: auto 100%; } }
+
+@media screen and (max-width: 750px) {
+  .grid-contenedor2 {
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: auto 240px auto;
+    grid-template-areas: ". header ." "img img img" ". form ."; }
+    .grid-contenedor2 .forms {
+      margin: 20px 0 100px 0; }
+    .grid-contenedor2 .formImg {
+      background-image: url("../img/sam2.jpg");
+      background-size: 100% auto;
+      margin: 50px 0 20px 0; } }
+
+@media screen and (max-width: 500px) {
+  .grid-contenedor2 {
+    grid-template-columns: 20px 1fr 20px; } }
+
+@media screen and (max-width: 500px) {
+  .grid-contenedor2 .forms .formText {
+    margin: 0 0 25px 0; }
+    .grid-contenedor2 .forms .formText .mainText4 {
+      font-size: 48px;
+      text-align: center; }
+    .grid-contenedor2 .forms .formText .parText4 {
+      font-size: 18px;
+      text-align: center; }
+  .grid-contenedor2 .forms .normal {
+    display: none; }
+    .grid-contenedor2 .forms .normal .submitButton {
+      margin: 20px 0 0 0;
+      font-size: 18px; }
+  .grid-contenedor2 .forms .small {
+    display: block; }
+    .grid-contenedor2 .forms .small .submitButton {
+      margin: 20px 0 0 0;
+      font-size: 18px; } }
+
+@media screen and (max-width: 390px) {
+  .grid-contenedor2 .forms .formText .mainText4 {
+    font-size: 38px; }
+  .grid-contenedor2 .forms .formText .parText4 {
+    font-size: 16px; }
+  .grid-contenedor2 .forms .small .submitButton {
+    margin: 20px 0 0 0;
+    font-size: 16px; } }
+
+@media screen and (max-width: 335px) {
+  .grid-contenedor2 .forms .formText .mainText4 {
+    font-size: 32px; } }
+
+/*----------------------------media-query-destinations---------------------------*/
+@media screen and (max-width: 1400px) {
+  .grid-contenedor3 .content .destinations .destination {
+    grid-template-columns: 100px 0.4fr 0.1fr 0.6fr 100px;
+    grid-template-areas: ". img2 . dinfo ."; }
+    .grid-contenedor3 .content .destinations .destination .dImg {
+      height: 400px;
+      object-fit: cover; }
+    .grid-contenedor3 .content .destinations .destination .dInfo .dTitle {
+      font-size: 30px; }
+    .grid-contenedor3 .content .destinations .destination .dInfo .dParagraph {
+      font-size: 18px; }
+  .grid-contenedor3 .content .destinations .dLeft {
+    grid-template-columns: 100px 0.6fr 0.1fr 0.4fr 100px;
+    grid-template-areas: ". dinfo . img2 ."; }
+    .grid-contenedor3 .content .destinations .dLeft .dImg {
+      height: 400px;
+      object-fit: cover; }
+    .grid-contenedor3 .content .destinations .dLeft .dInfo .dTitle {
+      font-size: 30px; }
+    .grid-contenedor3 .content .destinations .dLeft .dInfo .dParagraph {
+      font-size: 18px; } }
+
+@media screen and (max-width: 900px) {
+  .grid-contenedor3 .content .destinations .destination .dInfo .dTitle {
+    font-size: 28px; }
+  .grid-contenedor3 .content .destinations .destination .dInfo .dParagraph {
+    font-size: 16px; }
+  .grid-contenedor3 .content .destinations .dLeft .dInfo .dTitle {
+    font-size: 28px; }
+  .grid-contenedor3 .content .destinations .dLeft .dInfo .dParagraph {
+    font-size: 16px; } }
+
+@media screen and (max-width: 750px) {
+  .grid-contenedor3 {
+    grid-template-columns: 50px 1fr 50px; }
+    .grid-contenedor3 .content {
+      grid-template-columns: 50px 1fr 50px; }
+      .grid-contenedor3 .content .mainT2 .mainText2 {
+        font-size: 48px; }
+      .grid-contenedor3 .content .destinations .destination {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: 50px 1fr 50px;
+        grid-template-rows: 300px 150px;
+        grid-template-areas: ". img2 ." ". dinfo ."; }
+        .grid-contenedor3 .content .destinations .destination .dImg {
+          height: 300px;
+          width: 100%;
+          object-fit: cover; }
+        .grid-contenedor3 .content .destinations .destination .dInfo {
+          border-top: 0px transparent solid;
+          align-items: center; }
+          .grid-contenedor3 .content .destinations .destination .dInfo .dParagraph {
+            display: none; }
+      .grid-contenedor3 .content .destinations .dLeft {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: 50px 1fr 50px;
+        grid-template-rows: 300px 150px;
+        grid-template-areas: ". img2 ." ". dinfo ."; }
+        .grid-contenedor3 .content .destinations .dLeft .dImg {
+          height: 300px;
+          width: 100%;
+          object-fit: cover; }
+        .grid-contenedor3 .content .destinations .dLeft .dInfo {
+          border-top: 0px transparent solid;
+          align-items: center; }
+          .grid-contenedor3 .content .destinations .dLeft .dInfo .dParagraph {
+            display: none; } }
+
+@media screen and (max-width: 530px) {
+  .grid-contenedor3 {
+    grid-template-columns: 20px 1fr 20px; }
+    .grid-contenedor3 .content {
+      grid-template-rows: 120px auto; }
+      .grid-contenedor3 .content .mainT2 .mainText2 {
+        font-size: 38px; } }
+
+@media screen and (max-width: 460px) {
+  .grid-contenedor3 .content {
+    grid-template-rows: 120px auto; }
+    .grid-contenedor3 .content .mainT2 .mainText2 {
+      font-size: 32px; }
+    .grid-contenedor3 .content .destinations .destination {
+      grid-template-columns: 20px 1fr 10px 1fr 20px;
+      grid-template-rows: 200px;
+      grid-template-areas: ". img2 . dinfo ."; }
+      .grid-contenedor3 .content .destinations .destination .dImg {
+        height: 200px;
+        width: 100%;
+        object-fit: cover; }
+      .grid-contenedor3 .content .destinations .destination .dInfo {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        align-items: center; }
+        .grid-contenedor3 .content .destinations .destination .dInfo .dParagraph {
+          display: none; }
+    .grid-contenedor3 .content .destinations .dLeft {
+      grid-template-columns: 20px 1fr 10px 1fr 20px;
+      grid-template-rows: 200px;
+      grid-template-areas: ". dinfo . img2 ."; }
+      .grid-contenedor3 .content .destinations .dLeft .dImg {
+        height: 200px;
+        width: 100%;
+        object-fit: cover; }
+      .grid-contenedor3 .content .destinations .dLeft .dInfo {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        align-items: center; }
+        .grid-contenedor3 .content .destinations .dLeft .dInfo .dParagraph {
+          display: none; } }
+
+/*----------------------------media-query-services---------------------------*/
+@media screen and (max-width: 1150px) {
+  .grid-contenedor4 main .services .serviceItem {
+    grid-template-columns: 0.3fr 0.3fr 2fr 0.6fr;
+    grid-template-areas: "number icon text button"; }
+    .grid-contenedor4 main .services .serviceItem .sNumber {
+      font-size: 60px; }
+    .grid-contenedor4 main .services .serviceItem .sIcon {
+      height: 50px;
+      width: 50px; } }
+
+@media screen and (max-width: 950px) {
+  .grid-contenedor4 main .mainT4 .mainText4 {
+    font-size: 48px; }
+  .grid-contenedor4 main .services .serviceItem {
+    grid-template-columns: 0.3fr 0.1fr 1fr 0.5fr;
+    grid-template-rows: 75px 75px;
+    grid-template-areas: "icon . text button" "number . text button"; }
+    .grid-contenedor4 main .services .serviceItem .sNumber {
+      border-right: transparent;
+      justify-self: center; } }
+
+@media screen and (max-width: 750px) {
+  .grid-contenedor4 {
+    grid-template-columns: 50px 1fr 50px; }
+    .grid-contenedor4 main .services .serviceItem {
+      grid-template-columns: 0.3fr 10px 1fr 0.5fr; }
+      .grid-contenedor4 main .services .serviceItem .sNumber {
+        font-size: 48px; }
+      .grid-contenedor4 main .services .serviceItem .sIcon {
+        width: 35px;
+        height: 35px; }
+      .grid-contenedor4 main .services .serviceItem .sText .sPrimaryText {
+        font-size: 24px; }
+      .grid-contenedor4 main .services .serviceItem .sText .sParagraphText {
+        font-size: 16px; } }
+
+@media screen and (max-width: 600px) {
+  .grid-contenedor4 main .mainT4 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .grid-contenedor4 main .mainT4 .mainText4 {
+      font-size: 42px; }
+  .grid-contenedor4 main .services .serviceItem {
+    grid-template-columns: 0.3fr 0.2fr 1fr;
+    grid-template-rows: 50px 15px auto;
+    grid-template-areas: "number . button" ". . ." "text text text"; }
+    .grid-contenedor4 main .services .serviceItem .sIcon {
+      display: none; }
+    .grid-contenedor4 main .services .serviceItem .sNumber {
+      justify-self: start; } }
+
+@media screen and (max-width: 530px) {
+  .grid-contenedor4 {
+    grid-template-columns: 20px 1fr 20px; }
+    .grid-contenedor4 main .mainT4 .mainText4 {
+      font-size: 28px; } }
+
+/*------------------------media-query-about-us--------------------------*/
+@media screen and (max-width: 1220px) {
+  .grid-contenedor5 .aboutUs {
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: auto auto;
+    grid-template-areas: ". about ." ". diff ."; }
+    .grid-contenedor5 .aboutUs .textAbout {
+      height: auto; }
+      .grid-contenedor5 .aboutUs .textAbout .aboutTitle {
+        margin-bottom: 40px; }
+    .grid-contenedor5 .aboutUs .textAbout2 {
+      height: auto; }
+      .grid-contenedor5 .aboutUs .textAbout2 .aboutTitle {
+        margin-bottom: 40px; }
+  .grid-contenedor5 .ceoComment {
+    background-image: url("../img/about-us/2m.png"); } }
+
+@media screen and (max-width: 900px) {
+  .grid-contenedor5 .hero2 .hero2Text {
+    font-size: 56px; }
+  .grid-contenedor5 .textAbout {
+    margin-bottom: 50px; }
+  .grid-contenedor5 .textAbout2 {
+    margin-bottom: 50px; } }
+
+@media screen and (max-width: 750px) {
+  .grid-contenedor5 {
+    grid-template-columns: 50px 1fr 50px; } }
+
+@media screen and (max-width: 600px) {
+  .grid-contenedor5 .hero2 .hero2Img {
+    height: 500px; }
+  .grid-contenedor5 .hero2 .hero2Text {
+    font-size: 42px; }
+  .grid-contenedor5 .ceoComment {
+    flex-direction: column; }
+    .grid-contenedor5 .ceoComment .ceo {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+    .grid-contenedor5 .ceoComment .ceoComment1 {
+      text-align: center;
+      width: 80%; } }
+
+@media screen and (max-width: 530px) {
+  .grid-contenedor5 {
+    grid-template-columns: 20px 1fr 20px; }
+    .grid-contenedor5 .hero2 .hero2Img {
+      height: 430px; }
+    .grid-contenedor5 .hero2 .hero2Text {
+      font-size: 32px; }
+    .grid-contenedor5 .aboutUs {
+      margin-top: 40px;
+      grid-template-columns: 1fr;
+      grid-template-areas: "about" "diff"; }
+      .grid-contenedor5 .aboutUs .textAbout {
+        margin-top: 40px;
+        margin-bottom: 40px; }
+        .grid-contenedor5 .aboutUs .textAbout .aboutTitle {
+          font-size: 28px; }
+        .grid-contenedor5 .aboutUs .textAbout .aboutPar {
+          font-size: 16px; }
+      .grid-contenedor5 .aboutUs .textAbout2 {
+        margin-top: 40px;
+        margin-bottom: 40px; }
+        .grid-contenedor5 .aboutUs .textAbout2 .aboutTitle {
+          font-size: 28px; }
+        .grid-contenedor5 .aboutUs .textAbout2 .aboutPar {
+          font-size: 16px; }
+    .grid-contenedor5 .ceoComment {
+      height: 250px;
+      background-image: url("../img/about-us/2s.png"); }
+      .grid-contenedor5 .ceoComment .ceoComment1 {
+        font-size: 16px;
+        font-weight: 400; } }
+
+/*----------------------------media-query-footer---------------------------*/
+@media screen and (max-width: 650px) {
+  .footer1 .footerBar {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px; }
+  .footer1 .ftExtra .ftIcons .fa {
+    padding: 10px; } }
+
+@media screen and (max-width: 500px) {
+  .footer1 .footerBar .ftNavBar2 {
+    padding: 0; }
+    .footer1 .footerBar .ftNavBar2 .fNavItem {
+      padding: 14px 6px;
+      text-decoration: none;
+      font-size: 12px; }
+  .footer1 .ftExtra {
+    flex-direction: column;
+    align-items: center; }
+    .footer1 .ftExtra .copy2 b {
+      font-size: 14px; }
+    .footer1 .ftExtra .copy2 h4 {
+      font-size: 14px; }
+    .footer1 .ftExtra .ftIcons {
+      margin-top: 10px; } }

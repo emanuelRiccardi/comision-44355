@@ -1,0 +1,173 @@
+@import "../base/variables";
+
+/*------------------------------destinations-------------------------------*/
+
+
+.grid-contenedor3 {
+
+    background-color: $bg-color-primary;
+    margin: 0 0;
+    color: $text-primary;
+    font-family: $font-primary;
+    @include grid (grid, 100px 1fr 100px, auto auto);
+
+    grid-template-areas:
+        ". header ."
+        "content content content"
+    ;
+
+    .content {
+        grid-area: content;
+        @include grid (grid, 100px 1fr 100px, 200px auto);
+
+        grid-template-areas:
+            ". maintext ."
+            "cards cards cards"
+        ;
+
+        .mainT2 {
+            grid-area: maintext;
+            width: 100%;
+            @extend %flex-center;
+
+            .mainText2 {
+                height: auto;
+                color: $text-primary;
+                font-size: nth($font-size, 1);
+                font-weight: nth($font-weight , 4);
+                font-family: $font-primary;
+                text-align: $text-center;
+            }
+        }
+
+        .destinations {
+            grid-area: cards;
+
+            .destination {
+                @extend %margin-card;
+                @include grid (grid, 100px 0.7fr 100px 1.2fr 100px, auto);
+
+                grid-template-areas:
+                    "img2 img2 . dinfo ."
+                ;
+
+                .dImg {
+                    height: auto;
+                    max-width: 100%;
+                    grid-area: img2;
+                }
+
+                .dInfo {
+                    grid-area: dinfo;
+                    border-top: 2px solid black;
+                    border-bottom: 2px solid black;
+                    @extend %flex-evenly-card;
+                    flex-direction: column;
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    .dTitle {
+                        color: $text-primary;
+                        font-size: nth($font-size, 8);
+                        font-weight: nth($font-weight , 3);
+                        font-family: $font-primary;
+                    }
+
+                    .dParagraph {
+                        color: $text-primary;
+                        font-size: nth($font-size, 7);
+                        font-weight: nth($font-weight , 2);
+                        font-family: $font-primary;
+                    }
+                    .button2{
+                        .button5 {
+                            display: inline-block;
+                            padding: 0.46em 1.6em;
+                            margin: 0 0.2em 0.2em 0;
+                            box-sizing: border-box;
+                            text-decoration: none;
+                            font-family: $font-primary;
+                            font-weight: nth($font-weight , 3);
+                            color: $text-white;
+                            background-color: map-get($button , bg-button);
+                            text-align: center;
+                            transition: all 0.15s;
+    
+                            &:hover {
+                                background-color: $bg-button-hover;
+                            }
+                    }
+                    }
+                }
+            }
+
+            .dLeft {
+                @extend %margin-card;
+                @include grid (grid, 100px 1.2fr 100px 0.7fr 100px, auto);
+
+                grid-template-areas:
+                    ". dinfo . img2 img2"
+                ;
+
+                .dImg {
+                    height: auto;
+                    max-width: 100%;
+                    grid-area: img2;
+                }
+
+                .dInfo {
+                    grid-area: dinfo;
+                    border-top: black solid 2px;
+                    border-bottom: black solid 2px;
+                    @extend %flex-evenly-card;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    .dTitle {
+                        color: $text-primary;
+                        font-size: nth($font-size, 8);
+                        font-weight: nth($font-weight , 3);
+                        font-family: $font-primary;
+                    }
+
+                    .dParagraph {
+                        color: $text-primary;
+                        font-size: nth($font-size, 7);
+                        font-weight: nth($font-weight , 2);
+                        font-family: $font-primary;
+                    }
+
+                    .button2{
+                        .button5 {
+                            display: inline-block;
+                            padding: 0.46em 1.6em;
+                            margin: 0 0.2em 0.2em 0;
+                            box-sizing: border-box;
+                            text-decoration: none;
+                            font-family: $font-primary;
+                            font-weight: nth($font-weight , 3);
+                            color: $text-white;
+                            background-color: map-get($button , bg-button);
+                            text-align: center;
+                            transition: all 0.15s;
+    
+                            &:hover {
+                                background-color: $bg-button-hover;
+                            }
+                    }
+                    }
+                }
+            }
+        }
+
+    }
+
+}

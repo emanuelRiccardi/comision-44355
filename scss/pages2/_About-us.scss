@@ -1,0 +1,139 @@
+@import "../base/variables";
+
+/*------------------------------about-uss-------------------------------*/
+
+
+.grid-contenedor5 {
+
+    background-color: $bg-color-primary;
+    margin: 0 0;
+    color: $text-primary;
+    font-family: $font-primary;
+    @include grid (grid, 100px 1fr 100px, auto auto auto auto);
+
+    grid-template-areas:
+        ". header ."
+        "hero hero hero"
+        ". content ."
+        "ceo ceo ceo"
+    ;
+
+    .hero2 {
+        grid-area: hero;
+        position: relative;
+        text-align: center;
+        .hero2Img {
+            width: 100%;
+            height: 560px;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+
+        .hero2Text {
+            bottom: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $text-primary;
+            text-align: $text-center;
+            font-size: nth($font-size, 1);
+            font-weight: nth($font-weight , 3);
+            font-family: $font-primary;
+            @extend %flex-center;
+        }
+    }
+
+    .aboutUs {
+        margin-top: 100px;
+        border-top: 2px solid black;
+        grid-area: content;
+        @include grid (grid, 1fr 150px 1fr, auto);
+
+        grid-template-areas:
+            "about . diff"
+        ;
+
+        .textAbout {
+            grid-area: about;
+            margin-top: 60px;
+            margin-bottom: 100px;
+            height: 360px;
+            @extend %flex-between;
+            flex-direction: column;
+
+            .aboutTitle {
+                font-size: nth($font-size, 10);
+                font-weight: nth($font-weight , 4);
+                font-family: $font-primary;
+                text-align: $text-center;
+            }
+
+            .aboutPar {
+                font-size: nth($font-size, 7);
+                font-weight: nth($font-weight , 2);
+                font-family: $font-primary;
+                text-align: $text-center;
+            }
+        }
+
+        .textAbout2 {
+            grid-area: diff;
+            margin-top: 60px;
+            margin-bottom: 100px;
+            height: 360px;
+            @extend %flex-between;
+            flex-direction: column;
+
+            .aboutTitle {
+                font-size: nth($font-size, 10);
+                font-weight: nth($font-weight , 4);
+                font-family: $font-primary;
+                text-align: $text-center;
+            }
+
+            .aboutPar {
+                font-size: nth($font-size, 7);
+                font-weight: nth($font-weight , 2);
+                font-family: $font-primary;
+                text-align: $text-center;
+            }
+        }
+    }
+    .ceoComment {
+        grid-area: ceo;
+        background-image: url("../img/about-us/2l.png");
+        @extend %flex-evenly;
+        height: 430px;
+        width: 100%;
+
+        .ceo {
+            .imgCeo {
+                width: 50px;
+                height: 50px;
+            }
+
+            .ceoName {
+                font-size: nth($font-size, 7);
+                font-weight: nth($font-weight , 3);
+                font-family: $font-primary;
+                color: $text-white;
+            }
+
+            .role {
+                font-size: nth($font-size, 4);
+                font-weight: nth($font-weight , 2);
+                font-family: $font-primary;
+                color: $text-white;
+            }
+        }
+
+        .ceoComment1 {
+            width: 40%;
+            font-size: nth($font-size, 8);
+            font-weight: nth($font-weight , 3);
+            font-family: $font-primary;
+            color: $text-white;
+        }
+    }
+}

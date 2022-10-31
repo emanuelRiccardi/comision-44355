@@ -1,0 +1,104 @@
+@import "../base/variables";
+
+/*------------------------------services-------------------------------*/
+
+
+.grid-contenedor4 {
+
+    background-color: $bg-color-primary;
+    margin: 0 0;
+    color: $text-primary;
+    font-family: $font-primary;
+    @include grid (grid, 100px 1fr 100px, auto auto);
+
+    grid-template-areas:
+        ". header ."
+        ". services ."
+    ;
+
+    main {
+        grid-area: services;
+        margin-bottom: 100px;
+        .mainT4 {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 100%;
+
+            .mainText4 {
+                color: $text-primary;
+                font-size: nth($font-size, 1);
+                font-weight: nth($font-weight , 4);
+                font-family: $font-primary;
+            }
+        }
+
+        .services {
+            .serviceItem {
+                @include grid (grid, 0.5fr 0.5fr 2fr  0.1fr 0.5fr, 150px);
+
+                grid-template-areas:
+                    "number icon text . button"
+                ;
+                align-items: center;
+                margin-bottom: 40px;
+                border-bottom: 2px black solid;
+
+                .sNumber {
+                    grid-area: number;
+                    color: $text-primary;
+                    font-size: nth($font-size, 9);
+                    font-weight: nth($font-weight , 2);
+                    font-family: $font-primary;
+                    border-right: 2px black solid;
+                }
+
+                .sIcon {
+                    grid-area: icon;
+                    justify-self: center;
+                }
+
+                .sText {
+                    grid-area: text;
+
+                    .sPrimaryText {
+                        color: $text-primary;
+                        font-size: nth($font-size, 2);
+                        font-weight: nth($font-weight , 3);
+                        font-family: $font-primary;
+                    }
+
+                    .sParagraphText {
+                        color: $text-primary;
+                        font-size: nth($font-size, 7);
+                        font-weight: nth($font-weight , 2);
+                        font-family: $font-primary;
+                    }
+                }
+
+                .button2{
+                    grid-area: button;
+                    justify-self: end;
+                    .button5 {
+                        display: inline-block;
+                        padding: 0.46em 1.6em;
+                        margin: 0 0.2em 0.2em 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        font-family: $font-primary;
+                        font-weight: nth($font-weight , 3);
+                        color: $text-white;
+                        background-color: map-get($button , bg-button);
+                        text-align: center;
+                        transition: all 0.15s;
+
+                        &:hover {
+                            background-color: $bg-button-hover;
+                        }
+                }
+                }
+            }
+
+        }
+    }
+
+}

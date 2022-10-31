@@ -1,0 +1,98 @@
+
+
+//! variables
+
+$font-primary: 'Poppins', sans-serif;
+$text-primary: black;
+$text-white: white;
+$text-center: center;
+$bg-button-hover: #1e4281;
+$facebook: #3B5998;
+$twitter: #55ACEE;
+$instagram: #125688;
+$bg-color-primary: #FFFEF8;
+
+//! listas
+
+$font-weight:
+100,
+400,
+600,
+700;
+
+$font-size:
+64px,
+28px,
+24px,
+16px,
+14px,
+8px,
+20px,
+32px,
+96px,
+48px;
+
+//! mixins
+
+@mixin grid ($grid, $column, $row){
+    display: $grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+}
+
+//! extends
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+%flex-evenly-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+%button-text{
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+%img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+%footer{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+%margin-card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+//! mapas
+
+$button:(
+    bg-button: rgb(121, 170, 255),
+    border-button: none,
+    padding-button: 20px,
+    display-button: inline-block,
+);
