@@ -42,6 +42,11 @@
                 align-items: center;
                 margin-bottom: 40px;
                 border-bottom: 2px black solid;
+                transition: all 0.25s ease-in;
+
+                &:hover{
+                    background-color: #C5DAFF;
+                }
 
                 .sNumber {
                     grid-area: number;

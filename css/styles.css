@@ -736,7 +736,10 @@
       grid-template-areas: "number icon text . button";
       align-items: center;
       margin-bottom: 40px;
-      border-bottom: 2px black solid; }
+      border-bottom: 2px black solid;
+      transition: all 0.25s ease-in; }
+      .grid-contenedor4 main .services .serviceItem:hover {
+        background-color: #C5DAFF; }
       .grid-contenedor4 main .services .serviceItem .sNumber {
         grid-area: number;
         color: black;
